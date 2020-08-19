@@ -1,7 +1,7 @@
 # Bytesize
-old tool for retreiving the correct answers to bbc bitesize quizes
+Old tool for retreiving the correct answers to bbc bitesize quizes
 
-## What did it do (broken site changed in past 5 years)
+## What did it do (Broken due to site update)
 
 Used to retrieve the answer page for all posable bbc bytesize answers for a given quiz
 
@@ -9,4 +9,4 @@ Used to retrieve the answer page for all posable bbc bytesize answers for a give
 
 It took a BBC Bytesize quiz URL and the number of questions on the page from STDIN.
 It would then send an HTTP request to the quiz answer url with all the answers set to A then B then C.
-the program would then extract the correct answers from the returned html and print those to STDOUT.
+The program would then extract the correct answers from the returned html and print those to STDOUT.
